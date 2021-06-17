@@ -205,6 +205,76 @@ body{
         padding: 20px;
     }
     
+    .search-box{
+        background: rgba(24,24,27,0.8);
+        padding: 1px;
+        border-radius: 10px;
+        border: 1px solid #eee;
+        
+    }
+    .search-box h1 {
+        color: white;
+        line-height: 2;
+      }
+      
+      h1.temp {
+        margin: 0;
+        margin-bottom: 0.4em;
+      }
+      .description {
+        text-transform: capitalize;
+        margin-left: 3px;
+      }
+      
+      .search-box input,
+      .search-box button {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 7px;
+        margin-bottom: 5px;
+        outline: none;
+        border: none;
+      }
+      
+      .search-box input {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-bottom: solid 2px green;
+        border-radius: 10px 0 10px 0;
+        text-align: center;
+        font-size: 10px;
+        color: white;
+      }
+      
+      .search-box input:focus {
+        color: white;
+        font-size: 5px;
+      }
+      
+      .search-box input::placeholder {
+        color: rgba(255, 255, 255.5);
+      }
+      
+      .search-box button {
+        background-color: #996300;
+        color: white;
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+      
+      .search-box button:hover {
+        background-color: #b05102;
+      }
+      
+      .search-box.error {
+        color: white;
+        font-size: 5px;
+      }
+    
     .future-forecast{
         justify-content: start;
         align-items: none;
